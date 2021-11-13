@@ -3,7 +3,7 @@ import React from 'react';
 const Birthday = (props) => {
         return(
             <article className="card">
-                <img className="avatar-img" src={props.img} />
+                <img alt="PeopleImage" className="avatar-img" src={props.img} />
                 <div className="text-part">
                     <h3>{props.name}</h3>
                     <p>{props.age} Years</p>
