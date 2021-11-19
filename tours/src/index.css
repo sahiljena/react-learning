@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bitter", serif;
+}
+
+.container {
+  padding: 10px;
+}
+.navbar {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+.navbar h1 {
+  font-size: 1.8em;
+  color: #212126;
+  border-bottom: 2px solid #212126;
+  padding: 4px;
+  width: 180px;
+  margin: 0 auto;
+}
+.full-Screen-loader {
+  background: ghostwhite;
+  color: indianred;
+  text-align: center;
+}
+.full-Screen-loader h4 {
+  font-size: 2em;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+.tourContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.tourContainer .block-btn-primary {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  background: #0e45eb;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 1.2em;
+  border: 2px solid #0e45eb;
+}
+.tour {
+  width: 100%;
+  margin-top: 30px;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0.6px 0.3px 2.5px -5px rgba(0, 0, 0, 0.62),
+    5px 2px 20px -5px rgba(0, 0, 0, 0.31);
+}
+.tour h2 {
+  font-size: 1.4em;
+  color: #ccad87;
+}
+.tour p {
+  font-size: 0.9em;
+}
+.tour img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.tour .price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.tour .block-btn-inerveted-primary {
+  width: 100%;
+  padding: 8px 0px;
+  font-size: 1.2em;
+  border: 2px solid burlywood;
+  color: burlywood;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.tour .block-btn-inerveted-primary:hover {
+  border: 2px solid burlywood;
+  color: #fff;
+  background-color: burlywood;
+}
+.tour .block-btn-inerveted-primary:focus {
+  border: 2px solid burlywood;
+  color: #fff;
+  background-color: burlywood;
+}
+.tour .link-like-btn {
+  color: blue;
+  background: none;
+  border: 0px;
+}

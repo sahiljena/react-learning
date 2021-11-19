@@ -16,7 +16,8 @@ function App() {
     return (
         <div className='container'>
             <section className="card-container-400-md">
-                <h2>{birthdays.length} Birthdays Today</h2><br />
+                <h2>{birthdays.length} Birthdays Today</h2>
+                <br />
                 {
                     birthdays.map(
                         (birthdaydata) =>{
